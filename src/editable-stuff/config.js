@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Nusret Ali",
   middleName: "",
   lastName: "Kızılaslan",
-  message: " Welcome to my website. I am Nusret Ali Kızılaslan ",
+  message: " Welcome to my website. I'm Nusret Ali.",
   icons: [
     {
       image: "fa-github",
@@ -51,7 +51,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("/Users/nusretkizilaslan/Desktop/MyProjects/personal-website/src/editable-stuff/Screenshot 2024-07-09 at 00.56.57.png"),
   imageSize: 375,
   message:
     "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",

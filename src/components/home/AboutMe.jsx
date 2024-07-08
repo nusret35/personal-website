@@ -17,7 +17,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       const instaQuery = "/?__a=1";
       try {
         const response = await axios.get(instaLink + link + instaQuery);
-        setProfilePicUrl(response.data.graphql.user.profile_pic_url_hd);
+        setProfilePicUrl("/Users/nusretkizilaslan/Desktop/MyProjects/personal-website/src/assets/img/6a00a529-1605-4def-b8f5-5c769b2f150c.png");
       } catch (error) {
         setShowPic(false);
         console.error(error.message);
