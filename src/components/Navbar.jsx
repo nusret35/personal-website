@@ -38,8 +38,8 @@ const Navigation = React.forwardRef((props, ref) => {
         }`}
       expand="lg"
     >
-      <Navbar.Brand className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {`<${mainBody.firstName} />`}
+      <Navbar.Brand className="navbar-brand" style={{color: !isTop ? "black" : "white"}} href={process.env.PUBLIC_URL + "/#home"}>
+        {`NK`}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -53,6 +53,7 @@ const Navigation = React.forwardRef((props, ref) => {
 
             <NavLink
               href={process.env.PUBLIC_URL + "/#projects"}
+              onTop={isTop} 
             >
               Projects
             </NavLink>
@@ -62,6 +63,7 @@ const Navigation = React.forwardRef((props, ref) => {
             href={about.resume}
             target="_blank"
             rel="noreferrer noopener"
+            onTop={isTop}
           >
             Resume
           </NavLink>
@@ -69,6 +71,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <NavLink
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
+              onTop={isTop}
             >
               About
             </NavLink>
@@ -77,6 +80,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <NavLink
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#skills"}
+              onTop={isTop}
             >
               Skills
             </NavLink>
