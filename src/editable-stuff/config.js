@@ -47,7 +47,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Nusret Ali Kızılaslan. I’m a computer scientist and engineer who is graduate in 2024 from Sabancı University. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: "https://docs.google.com/document/d/1GpUXQqKnApMmkXL_jei2_oQdLiuJ6nkasc34YvFAtfo/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -118,7 +118,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently working as a full-time software engineer. If you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "nusretkizilaslan1@gmail.com",
 };
 
