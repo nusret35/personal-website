@@ -17,7 +17,7 @@ const skills = [
     {
       language: "Java",
       photo: "https://education.oracle.com/file/general/p-80-java.png",
-      description:"I have worked with Java for the last several years. Most of the projects were APIs for web applications. I've used Spring framework in almost every Java project. Working with Java has thought me so much in software engineering."
+      description:"I have worked with Java for the last several years. Most of the projects were APIs for web applications. I've used Spring framework in almost every Java project. Working with Java has taught me so much in software engineering."
     },
     {
       language: "Kotlin",
